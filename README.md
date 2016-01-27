@@ -9,6 +9,10 @@ output: Shannon entropy (score)
 
 REQUIREMENTS: you need to have R installed in the system where you are running the scripts on.
 
+Khan Academy has a great introduction to entropy here:
+
+https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/symbol-rate-information-theory
+
 ###### twitter users (without API)
 
     $ ./parser.sh https://twitter.com/username | ./entropy.r
