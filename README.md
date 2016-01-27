@@ -21,6 +21,19 @@ output: Shannon entropy (score)
     $ echo -e "any string" | ./entropy.r
     
     
-##### contents of a file
+###### contents of a file
 
     $ cat filename | tr '\n' ' ' | sed 's/[[:blank:]]//g'
+    
+    
+###### to test your password
+
+    $ echo -e "p4zSv0Rd" | ./entropy.r
+    
+    
+###### to test random password length effect on entropy
+
+    $ openssl rand -base64 32  # will produce a password that is 32 characters long 
+    
+
+For anything except experimentation, I recommend using Twitter API and https://github.com/sferik/t
