@@ -3,9 +3,9 @@
 
 Shannon entropy score for any string directly from command line.
 
-input: any string
+* input <- any string
 
-output: Shannon entropy (score)
+* output -> Shannon entropy (score)
 
 REQUIREMENTS: you need to have R installed in the system where you are running the scripts on.
 
