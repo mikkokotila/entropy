@@ -6,11 +6,18 @@ Shannon entropy score for any string directly from command line.
 input: any string
 output: Shannon entropy (score)
 
+REQUIREMENTS: you need to have R installed in the system where you are running the scripts on.
+
 ###### twitter users (without API)
 
     $ ./parser.sh https://twitter.com/username | ./entropy.r
     
 For anything except experimentation, consider using Twitter API and https://github.com/sferik/t
+
+###### twitter users (with T)
+
+    $ sudo t search all keyword | tr '\n' ' ' | sed 's/[[:blank:]]//g' | ./entropy.r
+    
     
 ###### websites
 
