@@ -9,10 +9,6 @@ output: Shannon entropy (score)
 
 REQUIREMENTS: you need to have R installed in the system where you are running the scripts on.
 
-Khan Academy has a great introduction to entropy here:
-
-https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/symbol-rate-information-theory
-
 ###### twitter users (without API)
 
     $ ./parser.sh https://twitter.com/username | ./entropy.r
@@ -47,4 +43,10 @@ For anything except experimentation, consider using Twitter API and https://gith
 ###### to test random password length effect on entropy
 
     $ openssl rand -base64 32  # will produce a password that is 32 characters long 
-    
+
+
+Khan Academy has a great introduction to entropy here:
+
+https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/symbol-rate-information-theory
+
+
