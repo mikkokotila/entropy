@@ -10,6 +10,7 @@ output: Shannon entropy (score)
 
     $ ./parser.sh https://twitter.com/username | ./entropy.r
     
+For anything except experimentation, consider using Twitter API and https://github.com/sferik/t
     
 ###### websites
 
@@ -35,5 +36,3 @@ output: Shannon entropy (score)
 
     $ openssl rand -base64 32  # will produce a password that is 32 characters long 
     
-
-For anything except experimentation, I recommend using Twitter API and https://github.com/sferik/t
